@@ -26,6 +26,7 @@ ol {
 a {
   color: currentColor;
   text-decoration: none;
+  font-style: normal;
 }
 
 img {
