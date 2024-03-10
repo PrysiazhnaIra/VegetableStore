@@ -1,3 +1,145 @@
+/* reviews */
+
+.reviews {
+  background-color: #fbfbfb;
+  padding: 80px 0;
+}
+
+.reviews-title-block {
+  margin-bottom: 40px;
+}
+
+.reviews-title {
+  color: #141414;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.reviews-title-part span {
+  color: #576f35;
+}
+
+.reviews-text {
+  color: #141414;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+}
+
+.reviews-feabback-block {
+}
+
+.reviews-person1 {
+  border-radius: 24px;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  background: #fbfbfb;
+  padding: 20px 16px;
+}
+
+.reviews-picture {
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+.reviews-name {
+  color: #040306;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-top: 24px;
+}
+
+.reviews-feabback {
+  color: rgba(4, 3, 6, 0.4);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  padding: 8px 7px 18px 7px;
+}
+
+.reviews-person2 {
+  border-radius: 24px;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  background: #fbfbfb;
+  padding: 20px 16px;
+  display: none;
+}
+
+.reviews-person3 {
+  border-radius: 24px;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  background: #fbfbfb;
+  padding: 20px 16px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding: 100px 0;
+  }
+
+  .reviews-title-block {
+    margin-bottom: 50px;
+  }
+
+  .reviews-title {
+    width: 553px;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+
+  .reviews-text {
+    width: 553px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .reviews-feabback-block {
+    display: flex;
+    gap: 18px;
+  }
+
+  .reviews-person1 {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .reviews-person2 {
+    width: 100%;
+    display: block;
+    padding: 20px 20px;
+  }
+
+  .reviews-name {
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  .reviews-feabback {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-feabback-block {
+    display: flex;
+    gap: 25px;
+  }
+
+  .reviews-person3 {
+    width: 100%;
+    display: block;
+    padding: 20px 20px;
+  }
+}
+
 /* your_order */
 
 .your-order-section {
