@@ -1,3 +1,118 @@
+/* vegetables */
+
+.vegetables {
+  background-color: #7a3145;
+  padding: 80px 0;
+}
+
+.vegetables-title {
+  color: #fbfbfb;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.02;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.vegetables-title span {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.vegetables-text {
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  margin-bottom: 30px;
+}
+
+.vegetables-list {
+}
+
+.vegetables-item {
+  width: 100%;
+  padding: 32px 26px;
+  border-radius: 40px;
+  background-color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.vegetables-subtitle {
+  color: #7a3145;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.42px;
+  margin-bottom: 12px;
+}
+
+.vegetables-price {
+  color: #141414;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.vegetables-picture {
+}
+
+@media screen and (min-width: 768px) {
+  .vegetables {
+    padding: 100px 0;
+  }
+
+  .vegetables-title {
+    max-width: 508px;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+
+  .vegetables-text {
+    max-width: 626px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+  }
+
+  .vegetables-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 28px;
+  }
+
+  .vegetables-item {
+    padding: 32px 30px;
+    width: calc((100% - 20px) / 2);
+    margin-bottom: 0;
+  }
+
+  .vegetables-subtitle {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .vegetables-price {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .vegetables-title {
+    font-size: 64px;
+  }
+
+  .vegetables-item {
+    padding: 32px 32px;
+    width: calc((100% - 42px) / 3);
+  }
+}
+
 /* reviews */
 
 .reviews {
@@ -521,6 +636,16 @@
   fill: #fbfbfb;
 }
 
+.footer-logo-icon1:hover,
+.footer-logo-icon1:focus {
+  fill: #576f35;
+}
+
+.footer-logo-icon2:hover,
+.footer-logo-icon2:focus {
+  fill: #576f35;
+}
+
 .footer-text {
   margin-bottom: 40px;
   color: #fbfbfb;
@@ -545,6 +670,12 @@
   line-height: 1;
   letter-spacing: -0.02em;
 }
+
+.footer-anchor-link:hover,
+.footer-anchor-linkr:focus {
+  color: #576f35;
+}
+
 .footer-anchor-item:not(:last-child) {
   margin-bottom: 14px;
 }
@@ -573,6 +704,11 @@
   letter-spacing: -0.02em;
 }
 
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: #576f35;
+}
+
 .footer-privacy-cookie-inf {
   display: flex;
   align-items: center;
@@ -589,7 +725,9 @@
 .footer-privacy-cookie-inf-item {
 }
 
-.footer-privacy-cookie-inf-link {
+.footer-privacy-cookie-inf-link:hover,
+.footer-privacy-cookie-inf-link:focus {
+  color: #576f35;
 }
 
 .footer-privacy-cookie-inf-separator {
