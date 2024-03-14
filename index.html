@@ -16,11 +16,67 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/general.css" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <!-- header -->
     <header></header>
     <main>
+      <!-- how it works -->
+      <section id="works" class="work">
+        <div class="container-work">
+          <h2 class="visually-hidden">How it works</h2>
+          <div class="work-picture-block">
+            <picture class="work-picture">
+              <source
+                srcset="
+                  ./images/how_it_works/woman.jpg    1x,
+                  ./images/how_it_works/woman-2x.jpg 2x
+                "
+              />
+              <img src="./images/how_it_works/woman.jpg" alt="Process" />
+            </picture>
+          </div>
+          <div class="work-instruction">
+            <div class="work-instraction-block">
+              <h2 class="work-instruction-title">
+                To order your <span>vegetable</span> basket, simply follow these
+                <span>easy steps</span>
+              </h2>
+              <p class="work-instruction-text">
+                Our baskets are assembled with care and delivered straight to
+                your doorstep, so you can enjoy the taste of fresh fruit without
+                ever leaving your home.
+              </p>
+              <ol class="work-instruction-list">
+                <li class="work-instruction-item">
+                  <div class="work-instruction-step">
+                    <p class="work-instruction-step-text">
+                      Just choose <span>the vegetable</span> you want to order
+                      by clicking on the checkboxes <span>next to it</span>.
+                    </p>
+                  </div>
+                </li>
+                <li class="work-instruction-item">
+                  <div class="work-instruction-step">
+                    <p class="work-instruction-step-text">
+                      Click on <span>the basket</span> and fill out the form.
+                    </p>
+                  </div>
+                </li>
+                <li class="work-instruction-item">
+                  <div class="work-instruction-step">
+                    <p class="work-instruction-step-text">
+                      Sit back and relax! Your
+                      <span>fresh vegetables</span> basket will be delivered.
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- advertisement -->
       <section class="advertisement">
         <div class="container">
@@ -394,5 +450,6 @@
         </div>
       </div>
     </footer>
+    <!-- <script src="./script.js"></scrip> -->
   </body>
 </html>
