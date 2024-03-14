@@ -358,6 +358,20 @@
   transform: scale(1.1);
 }
 
+.basket {
+  fill: #576f35;
+}
+
+.basket {
+  transition: transform 0.3s ease;
+}
+
+.basket:hover,
+.basket:focus {
+  transform: scale(1.3);
+  fill: #7a3145;
+}
+
 @media screen and (min-width: 768px) {
   .vegetables {
     padding: 100px 0;
