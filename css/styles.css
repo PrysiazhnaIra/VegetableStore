@@ -1,3 +1,153 @@
+/* hero */
+
+.hero {
+  background-color: #576f35;
+  padding-top: 100px;
+}
+
+.hero-container {
+  background-image: linear-gradient(
+      0deg,
+      rgba(20, 20, 20, 0.2) 0%,
+      rgba(20, 20, 20, 0.2) 100%
+    ),
+    url(../images/hero/harvest-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 370px;
+}
+
+.hero-text-block {
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  color: #fbfbfb;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-container {
+    background-image: linear-gradient(
+        0deg,
+        rgba(20, 20, 20, 0.2) 0%,
+        rgba(20, 20, 20, 0.2) 100%
+      ),
+      url(../images/hero/harvest-mob.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 122px;
+  }
+
+  .hero-text-block {
+    margin-bottom: 50px;
+  }
+
+  .hero-title {
+    font-size: 76px;
+    margin-bottom: 25px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .hero-container {
+    background-image: linear-gradient(
+        0deg,
+        rgba(20, 20, 20, 0.2) 0%,
+        rgba(20, 20, 20, 0.2) 100%
+      ),
+      url(../images/hero/harvest-tab.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 539px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container {
+      background-image: linear-gradient(
+          0deg,
+          rgba(20, 20, 20, 0.2) 0%,
+          rgba(20, 20, 20, 0.2) 100%
+        ),
+        url(../images/hero/harvest-tab-2.jpg);
+      height: 539px;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 238px;
+  }
+
+  .hero-text-block {
+    margin-bottom: 50px;
+  }
+
+  .hero-title {
+    font-size: 76px;
+    margin-bottom: 128px;
+    width: 502px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 472px;
+    padding-right: 30px;
+  }
+  .hero-block {
+    background-image: linear-gradient(
+        0deg,
+        rgba(20, 20, 20, 0.2) 0%,
+        rgba(20, 20, 20, 0.2) 100%
+      ),
+      url(../images/hero/harvest-desk.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 650px 800px;
+    max-height: 800px;
+    display: flex;
+    gap: 28px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-block {
+      background-image: linear-gradient(
+          0deg,
+          rgba(20, 20, 20, 0.2) 0%,
+          rgba(20, 20, 20, 0.2) 100%
+        ),
+        url(../images/hero/harvest-desk-2.jpg);
+      background-size: 650px 800px;
+    }
+  }
+}
+
 /* how it works */
 
 .work {
