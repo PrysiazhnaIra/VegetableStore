@@ -508,6 +508,19 @@
   transform: scale(1.1);
 }
 
+.block-basket {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.decrease,
+.increase {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
 .basket {
   fill: #576f35;
 }
@@ -1249,6 +1262,7 @@
   .footer-block {
     display: flex;
   }
+
   .footer-text {
     width: 265px;
     font-size: 16px;
