@@ -36,6 +36,7 @@
 }
 
 .menu {
+  cursor: pointer;
   fill: white;
   width: 32px;
   height: 32px;
@@ -63,6 +64,7 @@
   }
 
   .header-btn-block {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -70,6 +72,7 @@
   }
 
   .header-btn-anc {
+    cursor: pointer;
     display: flex;
     padding: 12px;
     border-radius: 12px;
@@ -91,6 +94,85 @@
     background-color: #7a3145;
     border: none;
   }
+}
+
+/* mobile menu */
+.mob-menu {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #7a3145;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.mob-close-btn {
+  background-color: transparent;
+  border: none;
+  fill: white;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 88px;
+}
+
+.mob-close-icon {
+  fill: white;
+}
+
+.mob-btn-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.mob-btn-anc {
+  cursor: pointer;
+  display: flex;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: #fbfbfb;
+  text-align: center;
+  font-family: "Inter Tight";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.mob-btn-anc:hover,
+.mob-btn-anc:focus {
+  background-color: #fbfbfb;
+  color: #7a3145;
+}
+
+.mob-shop-btn {
+  background-color: #fbfbfb;
+  color: #7a3145;
+}
+.mob-shop-btn:hover,
+.mob-shop-btn:focus {
+  background-color: #576f35;
+  color: #fbfbfb;
+}
+
+.is-open {
+  z-index: 1001;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 /* hero */
