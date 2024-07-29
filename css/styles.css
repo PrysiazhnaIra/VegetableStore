@@ -125,6 +125,13 @@
   pointer-events: none;
   visibility: hidden;
 }
+.menu-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: space-between;
+}
 
 .mob-close-btn {
   background-color: transparent;
@@ -186,6 +193,21 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    width: 35vw;
+    height: 100vh;
+    transform: translateX(100%);
+    right: 0;
+    left: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .mob-menu.is-open {
+    transform: translateX(0);
+  }
 }
 
 /* hero */
