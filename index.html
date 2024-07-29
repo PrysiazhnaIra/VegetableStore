@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VegetablesOnlineStore</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +21,45 @@
   </head>
   <body>
     <!-- header -->
-    <header></header>
+    <header class="header">
+      <div class="container header-block">
+        <div class="header-logo">
+          <a class="header-logo-link" href="./index.html"
+            ><svg class="header-logo-icon1" width="30" height="30">
+              <use href="./images/icons.svg#icon-vector_small"></use>
+            </svg>
+            <svg class="header-logo-icon2" width="200" height="30">
+              <use href="./images/icons.svg#icon-text_small"></use>
+            </svg>
+          </a>
+        </div>
+        <div>
+          <svg class="menu" width="30" height="30">
+            <use href="./images/icons.svg#icon-paragraph-left"></use>
+          </svg>
+        </div>
+        <div class="header-btn-block">
+          <a class="header-btn-anc" href="#works">How It Works</a>
+          <a class="header-btn-anc" href="#vegetables">Vegetables</a>
+          <a class="header-btn-anc" href="#reviews">Reviews</a>
+          <a class="header-btn-anc shop-now" href="#shop-now">SHOP NOW</a>
+        </div>
+      </div>
+      <!-- mob menu -->
+      <div class="mob-menu">
+        <button type="button" class="mob-close-btn">
+          <svg class="mob-close-icon" width="28" height="28">
+            <use href="./images/icons.svg#icon-mob-close"></use>
+          </svg>
+        </button>
+        <div class="mob-btn-block">
+          <a class="mob-btn-anc" href="#works">How It Works</a>
+          <a class="mob-btn-anc" href="#vegetables">Vegetables</a>
+          <a class="mob-btn-anc" href="#reviews">Reviews</a>
+          <a class="mob-btn-anc mob-shop-btn" href="#shop-now">SHOP NOW</a>
+        </div>
+      </div>
+    </header>
     <main>
       <!-- hero -->
       <section class="hero">
@@ -310,7 +349,7 @@
         </div>
       </section>
       <!-- your_order -->
-      <section class="your-order-section">
+      <section class="your-order-section" id="shop-now">
         <div class="container your-order">
           <div class="title-block-your-order">
             <h2 class="title-your-order title-part">
