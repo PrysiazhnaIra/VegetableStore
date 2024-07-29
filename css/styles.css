@@ -23,16 +23,18 @@
 .header-logo-icon2 {
   fill: #fbfbfb;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .header-logo-icon1:hover,
 .header-logo-icon1:focus {
-  fill: #7a3145;
+  transform: scale(1.1);
 }
 
 .header-logo-icon2:hover,
 .header-logo-icon2:focus {
-  fill: #7a3145;
+  transform: scale(1.1);
 }
 
 .menu {
@@ -40,10 +42,12 @@
   fill: white;
   width: 32px;
   height: 32px;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .menu:hover {
-  fill: #7a3145;
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {
@@ -88,11 +92,20 @@
     font-style: normal;
     font-weight: 500;
     background-color: transparent;
+    transition: transform 0.3s ease;
   }
 
   .shop-now {
     background-color: #7a3145;
     border: none;
+    transition: transform 0.3s ease;
+  }
+
+  .header-btn-anc:hover,
+  .header-btn-anc:focus,
+  .shop-now:hover,
+  .shop-now:focus {
+    transform: scale(1.1);
   }
 }
 
@@ -693,6 +706,9 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background-color: #576f3561;
 }
 
 .basket {
@@ -1100,7 +1116,6 @@
 
 .form-send-btn-your-order:hover,
 .form-send-btn-your-order:focus {
-  color: #622133;
   transform: scale(1.1);
 }
 
@@ -1136,13 +1151,15 @@
   gap: 8px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.soc-link-your-order {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
 .soc-link-your-order:hover,
 .soc-link-your-order:focus {
-  color: #622133;
-}
-.soc-link-your-order {
-}
-.soc-link-separator {
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {
@@ -1296,16 +1313,17 @@
 .footer-logo-icon2 {
   fill: #fbfbfb;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.3s ease;
 }
 
 .footer-logo-icon1:hover,
 .footer-logo-icon1:focus {
-  fill: #576f35;
+  transform: scale(1.1);
 }
 
 .footer-logo-icon2:hover,
 .footer-logo-icon2:focus {
-  fill: #576f35;
+  transform: scale(1.1);
 }
 
 .footer-text {
@@ -1332,11 +1350,13 @@
   line-height: 1;
   letter-spacing: -0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .footer-anchor-link:hover,
 .footer-anchor-linkr:focus {
-  color: #576f35;
+  transform: scale(1.1);
 }
 
 .footer-anchor-item:not(:last-child) {
@@ -1366,11 +1386,13 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
-  color: #576f35;
+  transform: scale(1.1);
 }
 
 .footer-privacy-cookie-inf {
